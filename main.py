@@ -8,7 +8,7 @@ franchise_menu_items = {'arepa pabellon': 7.00, 'pernil arepa': 8.50, 'guayanes 
 
 #creating my classes
 class Menu: # plays the role of a template to create menue objects
-  def __init__(self, name, menu_items, start_time, end_time): # Creating menu class Constructor to create menu objects
+  def __init__(self, name, menu_items, start_time, end_time): # Creating menu class Constructor to create menu object
     self.name = name
     self.menu_items = menu_items
     self.start_time = start_time
